@@ -1,0 +1,5 @@
+使用说明：
+
+tex文件夹下存在answers.tex,design.tex,math.tex和Makefile，在tex文件夹下执行make answers,make design,make math,生成相应的answers.pdf,design.pdf和math.pdf。
+
+bin文件夹下存在Makefile,执行make run,可以编译所有的主程序和测试程序,具体的使用规则见answers.pdf中的相关说明。
