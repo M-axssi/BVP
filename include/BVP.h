@@ -13,8 +13,6 @@ class BVP{
   void reset();
   int GetDim(){return Dim;};
   int GetVectorSize(int n);
-  Real GetU0() {return B(0);};
-  Real GetU1() {return B(1);};
   Real GetH(int n){return 1.0/n;};
   Real GetBoundaryValue(Real x,Real y);
   ~BVP()
