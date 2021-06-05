@@ -1,0 +1,688 @@
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 38008.5, Error = 2.30995
+FMG : 1, Residule = 0.000448635 Ratio = 1.18035e-08 , Error = 0.003883 Ratio = 0.00168099
+FMG : 2, Residule = 46.9656 Ratio = 104686 , Error = 0.00667877 Ratio = 1.72
+FMG : 3, Residule = 1.14193 Ratio = 0.0243143 , Error = 9.21912e-05 Ratio = 0.0138036
+FMG : 4, Residule = 0.0980753 Ratio = 0.0858852 , Error = 7.37799e-08 Ratio = 0.000800292
+FMG : 5, Residule = 0.00472655 Ratio = 0.0481931 , Error = 1.09611e-06 Ratio = 14.8565
+FMG : 6, Residule = 0.000183934 Ratio = 0.038915 , Error = 8.26701e-08 Ratio = 0.0754212
+FMG : 7, Residule = 4.66174e-05 Ratio = 0.253447 , Error = 7.4529e-08 Ratio = 0.901523
+FMG : 8, Residule = 3.05886e-06 Ratio = 0.0656162 , Error = 7.00559e-08 Ratio = 0.939982
+FMG : 9, Residule = 5.77129e-08 Ratio = 0.0188675 , Error = 7.07848e-08 Ratio = 1.0104
+FMG : 10, Residule = 3.00279e-08 Ratio = 0.520298 , Error = 7.07417e-08 Ratio = 0.999391
+FMG : 11, Residule = 2.48838e-09 Ratio = 0.0828689 , Error = 7.074e-08 Ratio = 0.999976
+FMG : 12, Residule = 7.27596e-12 Ratio = 0.00292398 , Error = 7.07406e-08 Ratio = 1.00001
+FMG : 13, Residule = 2.18279e-11 Ratio = 3 , Error = 7.07405e-08 Ratio = 0.999999
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 38008.5, Error = 2.30995
+V-cycle : 1, Residule = 0.272994 Ratio = 7.18245e-06 , Error = 0.00400898 Ratio = 0.00173553
+V-cycle : 2, Residule = 59.9504 Ratio = 219.604 , Error = 0.0183371 Ratio = 4.57399
+V-cycle : 3, Residule = 11.7684 Ratio = 0.196302 , Error = 0.00366909 Ratio = 0.200092
+V-cycle : 4, Residule = 2.04399 Ratio = 0.173685 , Error = 0.000691635 Ratio = 0.188503
+V-cycle : 5, Residule = 0.318509 Ratio = 0.155827 , Error = 0.000125454 Ratio = 0.181388
+V-cycle : 6, Residule = 0.0511975 Ratio = 0.160741 , Error = 2.19932e-05 Ratio = 0.175308
+V-cycle : 7, Residule = 0.0083184 Ratio = 0.162477 , Error = 3.64632e-06 Ratio = 0.165793
+V-cycle : 8, Residule = 0.00137117 Ratio = 0.164836 , Error = 6.90434e-07 Ratio = 0.189351
+V-cycle : 9, Residule = 0.000228282 Ratio = 0.166487 , Error = 3.16299e-08 Ratio = 0.0458117
+V-cycle : 10, Residule = 3.79964e-05 Ratio = 0.166445 , Error = 8.75878e-08 Ratio = 2.76914
+V-cycle : 11, Residule = 6.27439e-06 Ratio = 0.165131 , Error = 6.79696e-08 Ratio = 0.776016
+V-cycle : 12, Residule = 1.02734e-06 Ratio = 0.163736 , Error = 7.11962e-08 Ratio = 1.04747
+V-cycle : 13, Residule = 1.67594e-07 Ratio = 0.163134 , Error = 7.06657e-08 Ratio = 0.992549
+V-cycle : 14, Residule = 2.7394e-08 Ratio = 0.163454 , Error = 7.07528e-08 Ratio = 1.00123
+V-cycle : 15, Residule = 4.50382e-09 Ratio = 0.164409 , Error = 7.07385e-08 Ratio = 0.999799
+V-cycle : 16, Residule = 7.49424e-10 Ratio = 0.166397 , Error = 7.07409e-08 Ratio = 1.00003
+V-cycle : 17, Residule = 1.16415e-10 Ratio = 0.15534 , Error = 7.07405e-08 Ratio = 0.999995
+V-cycle : 18, Residule = 2.18279e-11 Ratio = 0.1875 , Error = 7.07405e-08 Ratio = 1
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 38008.5, Error = 2.30995
+FMG : 1, Residule = 0.0366819 Ratio = 9.65099e-07 , Error = 0.144784 Ratio = 0.0626783
+FMG : 2, Residule = 177.551 Ratio = 4840.28 , Error = 0.0129589 Ratio = 0.0895055
+FMG : 3, Residule = 29.9669 Ratio = 0.168779 , Error = 0.00116209 Ratio = 0.089675
+FMG : 4, Residule = 7.7429 Ratio = 0.258382 , Error = 0.000170349 Ratio = 0.146588
+FMG : 5, Residule = 1.90306 Ratio = 0.245782 , Error = 5.22146e-06 Ratio = 0.0306516
+FMG : 6, Residule = 0.49387 Ratio = 0.259513 , Error = 6.06639e-06 Ratio = 1.16182
+FMG : 7, Residule = 0.12983 Ratio = 0.262883 , Error = 1.32966e-06 Ratio = 0.219185
+FMG : 8, Residule = 0.0347382 Ratio = 0.267567 , Error = 5.22729e-07 Ratio = 0.393129
+FMG : 9, Residule = 0.0094019 Ratio = 0.27065 , Error = 6.13896e-08 Ratio = 0.117441
+FMG : 10, Residule = 0.00257027 Ratio = 0.273377 , Error = 1.10646e-07 Ratio = 1.80236
+FMG : 11, Residule = 0.000708328 Ratio = 0.275585 , Error = 5.87625e-08 Ratio = 0.531085
+FMG : 12, Residule = 0.000196541 Ratio = 0.277472 , Error = 7.43488e-08 Ratio = 1.26524
+FMG : 13, Residule = 5.48505e-05 Ratio = 0.279079 , Error = 6.9654e-08 Ratio = 0.936854
+FMG : 14, Residule = 1.53839e-05 Ratio = 0.280469 , Error = 7.10676e-08 Ratio = 1.02029
+FMG : 15, Residule = 4.33335e-06 Ratio = 0.281681 , Error = 7.06422e-08 Ratio = 0.994013
+FMG : 16, Residule = 1.22524e-06 Ratio = 0.282747 , Error = 7.07701e-08 Ratio = 1.00181
+FMG : 17, Residule = 3.47587e-07 Ratio = 0.283688 , Error = 7.07317e-08 Ratio = 0.999457
+FMG : 18, Residule = 9.88948e-08 Ratio = 0.284518 , Error = 7.07432e-08 Ratio = 1.00016
+FMG : 19, Residule = 2.82089e-08 Ratio = 0.285241 , Error = 7.07397e-08 Ratio = 0.999951
+FMG : 20, Residule = 8.06176e-09 Ratio = 0.285788 , Error = 7.07408e-08 Ratio = 1.00001
+FMG : 21, Residule = 2.31375e-09 Ratio = 0.287004 , Error = 7.07405e-08 Ratio = 0.999996
+FMG : 22, Residule = 6.54836e-10 Ratio = 0.283019 , Error = 7.07406e-08 Ratio = 1
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 38008.5, Error = 2.30995
+V-cycle : 1, Residule = 0.272994 Ratio = 7.18245e-06 , Error = 0.144729 Ratio = 0.0626547
+V-cycle : 2, Residule = 88.9185 Ratio = 325.716 , Error = 0.020045 Ratio = 0.1385
+V-cycle : 3, Residule = 6.14966 Ratio = 0.0691606 , Error = 0.00430142 Ratio = 0.214589
+V-cycle : 4, Residule = 2.21461 Ratio = 0.360119 , Error = 0.000516073 Ratio = 0.119977
+V-cycle : 5, Residule = 0.115317 Ratio = 0.0520711 , Error = 0.000161752 Ratio = 0.313429
+V-cycle : 6, Residule = 0.06234 Ratio = 0.540597 , Error = 1.44103e-05 Ratio = 0.0890884
+V-cycle : 7, Residule = 0.00282824 Ratio = 0.0453679 , Error = 6.21772e-06 Ratio = 0.431479
+V-cycle : 8, Residule = 0.00198847 Ratio = 0.703078 , Error = 4.899e-07 Ratio = 0.078791
+V-cycle : 9, Residule = 7.64778e-05 Ratio = 0.0384606 , Error = 3.20166e-07 Ratio = 0.653532
+V-cycle : 10, Residule = 6.78628e-05 Ratio = 0.887353 , Error = 5.88271e-08 Ratio = 0.18374
+V-cycle : 11, Residule = 2.1589e-06 Ratio = 0.0318127 , Error = 6.07256e-08 Ratio = 1.03227
+V-cycle : 12, Residule = 2.42075e-06 Ratio = 1.12129 , Error = 7.10538e-08 Ratio = 1.17008
+V-cycle : 13, Residule = 6.07033e-08 Ratio = 0.0250763 , Error = 7.1146e-08 Ratio = 1.0013
+V-cycle : 14, Residule = 8.90504e-08 Ratio = 1.46698 , Error = 7.07339e-08 Ratio = 0.994208
+V-cycle : 15, Residule = 1.62254e-09 Ratio = 0.0182204 , Error = 7.0724e-08 Ratio = 0.99986
+V-cycle : 16, Residule = 3.34694e-09 Ratio = 2.06278 , Error = 7.07406e-08 Ratio = 1.00023
+V-cycle : 17, Residule = 4.36557e-11 Ratio = 0.0130435 , Error = 7.07412e-08 Ratio = 1.00001
+V-cycle : 18, Residule = 1.16415e-10 Ratio = 2.66667 , Error = 7.07405e-08 Ratio = 0.999991
+V-cycle : 19, Residule = 7.27596e-12 Ratio = 0.0625 , Error = 7.07405e-08 Ratio = 1
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 38008.5, Error = 2.30995
+FMG : 1, Residule = 718.719 Ratio = 0.0189094 , Error = 0.0205634 Ratio = 0.00890212
+FMG : 2, Residule = 21.6917 Ratio = 0.0301811 , Error = 0.000699393 Ratio = 0.0340115
+FMG : 3, Residule = 0.817277 Ratio = 0.037677 , Error = 2.42754e-05 Ratio = 0.0347092
+FMG : 4, Residule = 0.029426 Ratio = 0.0360049 , Error = 9.91255e-07 Ratio = 0.0408337
+FMG : 5, Residule = 0.00110707 Ratio = 0.0376221 , Error = 1.04075e-07 Ratio = 0.104993
+FMG : 6, Residule = 4.04715e-05 Ratio = 0.0365574 , Error = 7.19892e-08 Ratio = 0.691706
+FMG : 7, Residule = 1.51338e-06 Ratio = 0.0373936 , Error = 7.07863e-08 Ratio = 0.98329
+FMG : 8, Residule = 5.55956e-08 Ratio = 0.0367361 , Error = 7.07422e-08 Ratio = 0.999377
+FMG : 9, Residule = 2.06637e-09 Ratio = 0.0371679 , Error = 7.07406e-08 Ratio = 0.999977
+FMG : 10, Residule = 8.00355e-11 Ratio = 0.0387324 , Error = 7.07405e-08 Ratio = 0.999999
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 38008.5, Error = 2.30995
+V-cycle : 1, Residule = 811.488 Ratio = 0.0213502 , Error = 0.0182268 Ratio = 0.00789057
+V-cycle : 2, Residule = 31.6423 Ratio = 0.0389929 , Error = 0.00117985 Ratio = 0.0647318
+V-cycle : 3, Residule = 1.40536 Ratio = 0.0444138 , Error = 3.37151e-05 Ratio = 0.0285756
+V-cycle : 4, Residule = 0.0523026 Ratio = 0.0372166 , Error = 1.78036e-06 Ratio = 0.0528059
+V-cycle : 5, Residule = 0.00189654 Ratio = 0.0362609 , Error = 1.25172e-07 Ratio = 0.0703074
+V-cycle : 6, Residule = 5.12945e-05 Ratio = 0.0270463 , Error = 7.27799e-08 Ratio = 0.581438
+V-cycle : 7, Residule = 1.23063e-06 Ratio = 0.0239914 , Error = 7.07925e-08 Ratio = 0.972693
+V-cycle : 8, Residule = 2.51093e-08 Ratio = 0.0204037 , Error = 7.07425e-08 Ratio = 0.999293
+V-cycle : 9, Residule = 1.65892e-09 Ratio = 0.0660678 , Error = 7.07406e-08 Ratio = 0.999973
+V-cycle : 10, Residule = 1.52795e-10 Ratio = 0.0921053 , Error = 7.07405e-08 Ratio = 0.999999
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 38008.5, Error = 2.30995
+FMG : 1, Residule = 720.679 Ratio = 0.018961 , Error = 0.0506335 Ratio = 0.0219198
+FMG : 2, Residule = 24.8905 Ratio = 0.0345375 , Error = 0.000858921 Ratio = 0.0169635
+FMG : 3, Residule = 0.706923 Ratio = 0.0284014 , Error = 3.08828e-05 Ratio = 0.0359553
+FMG : 4, Residule = 0.0250258 Ratio = 0.035401 , Error = 8.79107e-07 Ratio = 0.0284659
+FMG : 5, Residule = 0.000787018 Ratio = 0.0314483 , Error = 1.00809e-07 Ratio = 0.114672
+FMG : 6, Residule = 2.82544e-05 Ratio = 0.0359006 , Error = 7.16368e-08 Ratio = 0.710621
+FMG : 7, Residule = 9.29795e-07 Ratio = 0.0329079 , Error = 7.0774e-08 Ratio = 0.987957
+FMG : 8, Residule = 3.3644e-08 Ratio = 0.0361844 , Error = 7.07416e-08 Ratio = 0.999542
+FMG : 9, Residule = 1.13505e-09 Ratio = 0.033737 , Error = 7.07406e-08 Ratio = 0.999986
+FMG : 10, Residule = 4.36557e-11 Ratio = 0.0384615 , Error = 7.07405e-08 Ratio = 0.999999
+Final relative error = 3.06243e-08
+
+n = 128
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 38008.5, Error = 2.30995
+V-cycle : 1, Residule = 811.488 Ratio = 0.0213502 , Error = 0.151961 Ratio = 0.0657854
+V-cycle : 2, Residule = 31.1101 Ratio = 0.038337 , Error = 0.0126626 Ratio = 0.0833278
+V-cycle : 3, Residule = 0.11367 Ratio = 0.00365379 , Error = 0.001117 Ratio = 0.088213
+V-cycle : 4, Residule = 0.184344 Ratio = 1.62175 , Error = 0.000102483 Ratio = 0.0917479
+V-cycle : 5, Residule = 0.0297565 Ratio = 0.161419 , Error = 9.68559e-06 Ratio = 0.0945096
+V-cycle : 6, Residule = 0.00377268 Ratio = 0.126785 , Error = 9.87937e-07 Ratio = 0.102001
+V-cycle : 7, Residule = 0.000440526 Ratio = 0.116768 , Error = 1.59229e-07 Ratio = 0.161174
+V-cycle : 8, Residule = 4.95066e-05 Ratio = 0.112381 , Error = 7.93516e-08 Ratio = 0.498347
+V-cycle : 9, Residule = 5.45465e-06 Ratio = 0.11018 , Error = 7.15843e-08 Ratio = 0.902116
+V-cycle : 10, Residule = 5.94286e-07 Ratio = 0.10895 , Error = 7.08237e-08 Ratio = 0.989374
+V-cycle : 11, Residule = 6.43122e-08 Ratio = 0.108218 , Error = 7.07488e-08 Ratio = 0.998942
+V-cycle : 12, Residule = 6.91216e-09 Ratio = 0.107478 , Error = 7.07414e-08 Ratio = 0.999895
+V-cycle : 13, Residule = 7.34872e-10 Ratio = 0.106316 , Error = 7.07406e-08 Ratio = 0.99999
+V-cycle : 14, Residule = 8.00355e-11 Ratio = 0.108911 , Error = 7.07405e-08 Ratio = 0.999999
+Final relative error = 3.06243e-08
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 152030, Error = 2.31487
+FMG : 1, Residule = 0.000224684 Ratio = 1.47789e-09 , Error = 0.00193932 Ratio = 0.000837767
+FMG : 2, Residule = 187.862 Ratio = 836116 , Error = 0.00737946 Ratio = 3.80517
+FMG : 3, Residule = 4.56776 Ratio = 0.0243145 , Error = 9.57219e-05 Ratio = 0.0129714
+FMG : 4, Residule = 0.392302 Ratio = 0.085885 , Error = 1.7133e-07 Ratio = 0.00178988
+FMG : 5, Residule = 0.0189062 Ratio = 0.0481931 , Error = 1.2647e-06 Ratio = 7.38166
+FMG : 6, Residule = 0.000735737 Ratio = 0.038915 , Error = 2.848e-08 Ratio = 0.0225191
+FMG : 7, Residule = 0.00018647 Ratio = 0.253446 , Error = 1.23007e-08 Ratio = 0.431906
+FMG : 8, Residule = 1.22354e-05 Ratio = 0.0656161 , Error = 8.11887e-09 Ratio = 0.660035
+FMG : 9, Residule = 2.3091e-07 Ratio = 0.0188722 , Error = 8.88313e-09 Ratio = 1.09413
+FMG : 10, Residule = 1.20112e-07 Ratio = 0.520166 , Error = 8.83504e-09 Ratio = 0.994586
+FMG : 11, Residule = 9.95351e-09 Ratio = 0.0828689 , Error = 8.83346e-09 Ratio = 0.999821
+FMG : 12, Residule = 2.91038e-11 Ratio = 0.00292398 , Error = 8.83408e-09 Ratio = 1.00007
+FMG : 13, Residule = 8.73115e-11 Ratio = 3 , Error = 8.83403e-09 Ratio = 0.999994
+Final relative error = 3.81621e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 152030, Error = 2.31487
+V-cycle : 1, Residule = 0.306742 Ratio = 2.01764e-06 , Error = 0.00197971 Ratio = 0.000855213
+V-cycle : 2, Residule = 239.676 Ratio = 781.361 , Error = 0.018676 Ratio = 9.43372
+V-cycle : 3, Residule = 47.0539 Ratio = 0.196323 , Error = 0.00364678 Ratio = 0.195266
+V-cycle : 4, Residule = 8.17277 Ratio = 0.173689 , Error = 0.000686527 Ratio = 0.188255
+V-cycle : 5, Residule = 1.27351 Ratio = 0.155824 , Error = 0.000124921 Ratio = 0.181961
+V-cycle : 6, Residule = 0.204703 Ratio = 0.160739 , Error = 2.19464e-05 Ratio = 0.175682
+V-cycle : 7, Residule = 0.0332596 Ratio = 0.162478 , Error = 3.73262e-06 Ratio = 0.170079
+V-cycle : 8, Residule = 0.00548247 Ratio = 0.164839 , Error = 6.34837e-07 Ratio = 0.170078
+V-cycle : 9, Residule = 0.000912756 Ratio = 0.166486 , Error = 9.45461e-08 Ratio = 0.14893
+V-cycle : 10, Residule = 0.000151921 Ratio = 0.166442 , Error = 2.57818e-08 Ratio = 0.27269
+V-cycle : 11, Residule = 2.50865e-05 Ratio = 0.165129 , Error = 6.06095e-09 Ratio = 0.235087
+V-cycle : 12, Residule = 4.1078e-06 Ratio = 0.163745 , Error = 9.28849e-09 Ratio = 1.53251
+V-cycle : 13, Residule = 6.70116e-07 Ratio = 0.163132 , Error = 8.75941e-09 Ratio = 0.943039
+V-cycle : 14, Residule = 1.09576e-07 Ratio = 0.163518 , Error = 8.84628e-09 Ratio = 1.00992
+V-cycle : 15, Residule = 1.79862e-08 Ratio = 0.164143 , Error = 8.83202e-09 Ratio = 0.998388
+V-cycle : 16, Residule = 2.96859e-09 Ratio = 0.165049 , Error = 8.83436e-09 Ratio = 1.00027
+V-cycle : 17, Residule = 4.94765e-10 Ratio = 0.166667 , Error = 8.83397e-09 Ratio = 0.999956
+V-cycle : 18, Residule = 1.16415e-10 Ratio = 0.235294 , Error = 8.83404e-09 Ratio = 1.00001
+Final relative error = 3.81621e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 152030, Error = 2.31487
+FMG : 1, Residule = 0.0377 Ratio = 2.47977e-07 , Error = 0.146703 Ratio = 0.0633743
+FMG : 2, Residule = 710.176 Ratio = 18837.6 , Error = 0.0130044 Ratio = 0.0886444
+FMG : 3, Residule = 119.865 Ratio = 0.168782 , Error = 0.00120656 Ratio = 0.0927809
+FMG : 4, Residule = 30.9703 Ratio = 0.258378 , Error = 0.000165642 Ratio = 0.137284
+FMG : 5, Residule = 7.61193 Ratio = 0.245781 , Error = 3.45481e-06 Ratio = 0.0208571
+FMG : 6, Residule = 1.97538 Ratio = 0.259511 , Error = 5.58591e-06 Ratio = 1.61685
+FMG : 7, Residule = 0.519291 Ratio = 0.262881 , Error = 1.27581e-06 Ratio = 0.228398
+FMG : 8, Residule = 0.138944 Ratio = 0.267566 , Error = 4.30749e-07 Ratio = 0.337628
+FMG : 9, Residule = 0.037605 Ratio = 0.270648 , Error = 1.15322e-07 Ratio = 0.267725
+FMG : 10, Residule = 0.0102803 Ratio = 0.273376 , Error = 4.66414e-08 Ratio = 0.404444
+FMG : 11, Residule = 0.00283309 Ratio = 0.275584 , Error = 2.59125e-09 Ratio = 0.0555568
+FMG : 12, Residule = 0.000786098 Ratio = 0.27747 , Error = 1.22969e-08 Ratio = 4.74556
+FMG : 13, Residule = 0.000219382 Ratio = 0.279077 , Error = 7.78575e-09 Ratio = 0.633146
+FMG : 14, Residule = 6.15297e-05 Ratio = 0.280468 , Error = 9.15108e-09 Ratio = 1.17536
+FMG : 15, Residule = 1.73317e-05 Ratio = 0.28168 , Error = 8.73828e-09 Ratio = 0.954891
+FMG : 16, Residule = 4.90044e-06 Ratio = 0.282745 , Error = 8.8629e-09 Ratio = 1.01426
+FMG : 17, Residule = 1.39023e-06 Ratio = 0.283695 , Error = 8.82534e-09 Ratio = 0.995762
+FMG : 18, Residule = 3.95521e-07 Ratio = 0.2845 , Error = 8.83664e-09 Ratio = 1.00128
+FMG : 19, Residule = 1.12865e-07 Ratio = 0.285357 , Error = 8.83325e-09 Ratio = 0.999616
+FMG : 20, Residule = 3.2247e-08 Ratio = 0.285714 , Error = 8.83426e-09 Ratio = 1.00012
+FMG : 21, Residule = 9.28412e-09 Ratio = 0.287906 , Error = 8.83396e-09 Ratio = 0.999966
+FMG : 22, Residule = 2.64845e-09 Ratio = 0.285266 , Error = 8.83405e-09 Ratio = 1.00001
+Final relative error = 3.81622e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 152030, Error = 2.31487
+V-cycle : 1, Residule = 0.306742 Ratio = 2.01764e-06 , Error = 0.146675 Ratio = 0.0633622
+V-cycle : 2, Residule = 355.629 Ratio = 1159.37 , Error = 0.0200996 Ratio = 0.137034
+V-cycle : 3, Residule = 24.5717 Ratio = 0.0690935 , Error = 0.00439052 Ratio = 0.218439
+V-cycle : 4, Residule = 8.85727 Ratio = 0.360467 , Error = 0.000515856 Ratio = 0.117493
+V-cycle : 5, Residule = 0.460259 Ratio = 0.0519639 , Error = 0.000165655 Ratio = 0.321127
+V-cycle : 6, Residule = 0.249325 Ratio = 0.541707 , Error = 1.43941e-05 Ratio = 0.0868917
+V-cycle : 7, Residule = 0.0112736 Ratio = 0.0452166 , Error = 6.45316e-06 Ratio = 0.448321
+V-cycle : 8, Residule = 0.00795272 Ratio = 0.705427 , Error = 4.22322e-07 Ratio = 0.0654442
+V-cycle : 9, Residule = 0.000304338 Ratio = 0.0382684 , Error = 2.65788e-07 Ratio = 0.629349
+V-cycle : 10, Residule = 0.00027141 Ratio = 0.891805 , Error = 2.75143e-09 Ratio = 0.010352
+V-cycle : 11, Residule = 8.57111e-06 Ratio = 0.0315799 , Error = 1.5059e-09 Ratio = 0.547316
+V-cycle : 12, Residule = 9.68148e-06 Ratio = 1.12955 , Error = 9.12991e-09 Ratio = 6.06276
+V-cycle : 13, Residule = 2.40107e-07 Ratio = 0.0248006 , Error = 9.25347e-09 Ratio = 1.01353
+V-cycle : 14, Residule = 3.56202e-07 Ratio = 1.48352 , Error = 8.82829e-09 Ratio = 0.954052
+V-cycle : 15, Residule = 6.34464e-09 Ratio = 0.0178119 , Error = 8.81692e-09 Ratio = 0.998712
+V-cycle : 16, Residule = 1.34751e-08 Ratio = 2.12385 , Error = 8.83403e-09 Ratio = 1.00194
+V-cycle : 17, Residule = 8.73115e-11 Ratio = 0.00647948 , Error = 8.83473e-09 Ratio = 1.00008
+V-cycle : 18, Residule = 4.94765e-10 Ratio = 5.66667 , Error = 8.83405e-09 Ratio = 0.999922
+V-cycle : 19, Residule = 2.91038e-11 Ratio = 0.0588235 , Error = 8.83401e-09 Ratio = 0.999996
+Final relative error = 3.8162e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 152030, Error = 2.31487
+FMG : 1, Residule = 2874.87 Ratio = 0.0189099 , Error = 0.0205633 Ratio = 0.00888314
+FMG : 2, Residule = 86.7667 Ratio = 0.0301811 , Error = 0.00069933 Ratio = 0.0340086
+FMG : 3, Residule = 3.2691 Ratio = 0.0376769 , Error = 2.42135e-05 Ratio = 0.0346238
+FMG : 4, Residule = 0.117704 Ratio = 0.0360049 , Error = 9.29347e-07 Ratio = 0.0383814
+FMG : 5, Residule = 0.00442826 Ratio = 0.0376221 , Error = 4.21684e-08 Ratio = 0.0453742
+FMG : 6, Residule = 0.000161886 Ratio = 0.0365574 , Error = 1.00827e-08 Ratio = 0.239106
+FMG : 7, Residule = 6.05351e-06 Ratio = 0.0373936 , Error = 8.87983e-09 Ratio = 0.880696
+FMG : 8, Residule = 2.22411e-07 Ratio = 0.0367409 , Error = 8.83574e-09 Ratio = 0.995034
+FMG : 9, Residule = 8.29459e-09 Ratio = 0.0372939 , Error = 8.83409e-09 Ratio = 0.999814
+FMG : 10, Residule = 2.91038e-10 Ratio = 0.0350877 , Error = 8.83403e-09 Ratio = 0.999993
+Final relative error = 3.81621e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 152030, Error = 2.31487
+V-cycle : 1, Residule = 3246.42 Ratio = 0.0213538 , Error = 0.0182464 Ratio = 0.00788224
+V-cycle : 2, Residule = 126.569 Ratio = 0.0389871 , Error = 0.00117976 Ratio = 0.0646572
+V-cycle : 3, Residule = 5.62113 Ratio = 0.0444117 , Error = 3.36606e-05 Ratio = 0.0285318
+V-cycle : 4, Residule = 0.209187 Ratio = 0.0372144 , Error = 1.71818e-06 Ratio = 0.0510443
+V-cycle : 5, Residule = 0.00758498 Ratio = 0.0362593 , Error = 6.33393e-08 Ratio = 0.0368642
+V-cycle : 6, Residule = 0.000205044 Ratio = 0.0270328 , Error = 1.08861e-08 Ratio = 0.171869
+V-cycle : 7, Residule = 4.89815e-06 Ratio = 0.0238883 , Error = 8.887e-09 Ratio = 0.816362
+V-cycle : 8, Residule = 9.76142e-08 Ratio = 0.0199288 , Error = 8.83602e-09 Ratio = 0.994263
+V-cycle : 9, Residule = 6.49015e-09 Ratio = 0.0664878 , Error = 8.83409e-09 Ratio = 0.999782
+V-cycle : 10, Residule = 6.1118e-10 Ratio = 0.0941704 , Error = 8.83403e-09 Ratio = 0.999993
+Final relative error = 3.81621e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 152030, Error = 2.31487
+FMG : 1, Residule = 2882.72 Ratio = 0.0189615 , Error = 0.0506317 Ratio = 0.0218724
+FMG : 2, Residule = 99.5598 Ratio = 0.0345367 , Error = 0.000858867 Ratio = 0.016963
+FMG : 3, Residule = 2.8277 Ratio = 0.028402 , Error = 3.082e-05 Ratio = 0.0358845
+FMG : 4, Residule = 0.100101 Ratio = 0.0354003 , Error = 8.17209e-07 Ratio = 0.0265155
+FMG : 5, Residule = 0.00314807 Ratio = 0.0314489 , Error = 3.89013e-08 Ratio = 0.0476027
+FMG : 6, Residule = 0.000113016 Ratio = 0.0358999 , Error = 9.73027e-09 Ratio = 0.250127
+FMG : 7, Residule = 3.71912e-06 Ratio = 0.032908 , Error = 8.86751e-09 Ratio = 0.911332
+FMG : 8, Residule = 1.34547e-07 Ratio = 0.0361771 , Error = 8.83509e-09 Ratio = 0.996343
+FMG : 9, Residule = 4.5402e-09 Ratio = 0.0337443 , Error = 8.83407e-09 Ratio = 0.999885
+FMG : 10, Residule = 1.74623e-10 Ratio = 0.0384615 , Error = 8.83403e-09 Ratio = 0.999996
+Final relative error = 3.81621e-09
+
+n = 256
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 152030, Error = 2.31487
+V-cycle : 1, Residule = 3246.42 Ratio = 0.0213538 , Error = 0.15191 Ratio = 0.0656233
+V-cycle : 2, Residule = 124.495 Ratio = 0.0383483 , Error = 0.0126586 Ratio = 0.0833297
+V-cycle : 3, Residule = 0.449078 Ratio = 0.00360721 , Error = 0.00111666 Ratio = 0.0882138
+V-cycle : 4, Residule = 0.737006 Ratio = 1.64115 , Error = 0.00010241 Ratio = 0.091711
+V-cycle : 5, Residule = 0.118992 Ratio = 0.161454 , Error = 9.62247e-06 Ratio = 0.0939601
+V-cycle : 6, Residule = 0.0150841 Ratio = 0.126765 , Error = 9.25627e-07 Ratio = 0.0961943
+V-cycle : 7, Residule = 0.00176067 Ratio = 0.116724 , Error = 9.72291e-08 Ratio = 0.105041
+V-cycle : 8, Residule = 0.000197761 Ratio = 0.112322 , Error = 1.74283e-08 Ratio = 0.17925
+V-cycle : 9, Residule = 2.17762e-05 Ratio = 0.110114 , Error = 9.67527e-09 Ratio = 0.555147
+V-cycle : 10, Residule = 2.371e-06 Ratio = 0.10888 , Error = 8.91685e-09 Ratio = 0.921612
+V-cycle : 11, Residule = 2.56434e-07 Ratio = 0.108154 , Error = 8.84222e-09 Ratio = 0.991631
+V-cycle : 12, Residule = 2.76195e-08 Ratio = 0.107706 , Error = 8.83484e-09 Ratio = 0.999165
+V-cycle : 13, Residule = 2.93949e-09 Ratio = 0.106428 , Error = 8.83411e-09 Ratio = 0.999917
+V-cycle : 14, Residule = 3.49246e-10 Ratio = 0.118812 , Error = 8.83404e-09 Ratio = 0.999992
+Final relative error = 3.81621e-09
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 608117, Error = 2.31733
+FMG : 1, Residule = 0.000112222 Ratio = 1.8454e-10 , Error = 0.000969072 Ratio = 0.000418185
+FMG : 2, Residule = 751.447 Ratio = 6.69609e+06 , Error = 0.00772984 Ratio = 7.97654
+FMG : 3, Residule = 18.271 Ratio = 0.0243145 , Error = 9.7511e-05 Ratio = 0.0126149
+FMG : 4, Residule = 1.56921 Ratio = 0.085885 , Error = 1.96878e-07 Ratio = 0.00201904
+FMG : 5, Residule = 0.075625 Ratio = 0.0481931 , Error = 1.32578e-06 Ratio = 6.73399
+FMG : 6, Residule = 0.00294295 Ratio = 0.038915 , Error = 2.46078e-08 Ratio = 0.0185611
+FMG : 7, Residule = 0.000745879 Ratio = 0.253446 , Error = 4.40945e-09 Ratio = 0.179189
+FMG : 8, Residule = 4.89416e-05 Ratio = 0.0656159 , Error = 3.73285e-10 Ratio = 0.0846556
+FMG : 9, Residule = 9.23523e-07 Ratio = 0.0188699 , Error = 1.15522e-09 Ratio = 3.09473
+FMG : 10, Residule = 4.80562e-07 Ratio = 0.520358 , Error = 1.10463e-09 Ratio = 0.956214
+FMG : 11, Residule = 3.99305e-08 Ratio = 0.0830911 , Error = 1.10311e-09 Ratio = 0.998616
+FMG : 12, Residule = 1.16415e-10 Ratio = 0.00291545 , Error = 1.10376e-09 Ratio = 1.00059
+FMG : 13, Residule = 2.32831e-10 Ratio = 2 , Error = 1.1037e-09 Ratio = 0.999948
+Final relative error = 4.76281e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 608117, Error = 2.31733
+V-cycle : 1, Residule = 0.323867 Ratio = 5.32574e-07 , Error = 0.000980304 Ratio = 0.000423033
+V-cycle : 2, Residule = 958.55 Ratio = 2959.7 , Error = 0.0188487 Ratio = 19.2274
+V-cycle : 3, Residule = 188.193 Ratio = 0.196331 , Error = 0.00363612 Ratio = 0.192911
+V-cycle : 4, Residule = 32.6874 Ratio = 0.173691 , Error = 0.000684072 Ratio = 0.188132
+V-cycle : 5, Residule = 5.09344 Ratio = 0.155823 , Error = 0.000124644 Ratio = 0.18221
+V-cycle : 6, Residule = 0.81871 Ratio = 0.160738 , Error = 2.19483e-05 Ratio = 0.176087
+V-cycle : 7, Residule = 0.133022 Ratio = 0.162477 , Error = 3.75283e-06 Ratio = 0.170985
+V-cycle : 8, Residule = 0.0219272 Ratio = 0.164839 , Error = 6.30314e-07 Ratio = 0.167957
+V-cycle : 9, Residule = 0.00365058 Ratio = 0.166487 , Error = 1.02794e-07 Ratio = 0.163083
+V-cycle : 10, Residule = 0.000607609 Ratio = 0.166442 , Error = 1.81043e-08 Ratio = 0.176123
+V-cycle : 11, Residule = 0.000100334 Ratio = 0.165129 , Error = 1.67087e-09 Ratio = 0.0922912
+V-cycle : 12, Residule = 1.6429e-05 Ratio = 0.163743 , Error = 1.5576e-09 Ratio = 0.932211
+V-cycle : 13, Residule = 2.68058e-06 Ratio = 0.163161 , Error = 1.02916e-09 Ratio = 0.660735
+V-cycle : 14, Residule = 4.38187e-07 Ratio = 0.163467 , Error = 1.11596e-09 Ratio = 1.08433
+V-cycle : 15, Residule = 7.18283e-08 Ratio = 0.163921 , Error = 1.10169e-09 Ratio = 0.987221
+V-cycle : 16, Residule = 1.18744e-08 Ratio = 0.165316 , Error = 1.10402e-09 Ratio = 1.00211
+V-cycle : 17, Residule = 1.86265e-09 Ratio = 0.156863 , Error = 1.10365e-09 Ratio = 0.999665
+V-cycle : 18, Residule = 3.49246e-10 Ratio = 0.1875 , Error = 1.1037e-09 Ratio = 1.00005
+Final relative error = 4.76283e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 608117, Error = 2.31733
+FMG : 1, Residule = 0.0382099 Ratio = 6.28332e-08 , Error = 0.147661 Ratio = 0.0637205
+FMG : 2, Residule = 2840.67 Ratio = 74343.8 , Error = 0.013027 Ratio = 0.0882222
+FMG : 3, Residule = 479.455 Ratio = 0.168782 , Error = 0.00122879 Ratio = 0.0943264
+FMG : 4, Residule = 123.88 Ratio = 0.258377 , Error = 0.000163312 Ratio = 0.132905
+FMG : 5, Residule = 30.4473 Ratio = 0.245781 , Error = 2.54929e-06 Ratio = 0.0156099
+FMG : 6, Residule = 7.9014 Ratio = 0.259511 , Error = 5.36915e-06 Ratio = 2.10613
+FMG : 7, Residule = 2.07713 Ratio = 0.262881 , Error = 1.22575e-06 Ratio = 0.228294
+FMG : 8, Residule = 0.555766 Ratio = 0.267565 , Error = 4.08007e-07 Ratio = 0.332864
+FMG : 9, Residule = 0.150417 Ratio = 0.270648 , Error = 1.19073e-07 Ratio = 0.291841
+FMG : 10, Residule = 0.0411203 Ratio = 0.273375 , Error = 3.78642e-08 Ratio = 0.317991
+FMG : 11, Residule = 0.0113321 Ratio = 0.275583 , Error = 1.00459e-08 Ratio = 0.265313
+FMG : 12, Residule = 0.00314431 Ratio = 0.27747 , Error = 4.49408e-09 Ratio = 0.447356
+FMG : 13, Residule = 0.000877503 Ratio = 0.279077 , Error = 7.44778e-11 Ratio = 0.0165724
+FMG : 14, Residule = 0.000246111 Ratio = 0.280467 , Error = 1.41575e-09 Ratio = 19.009
+FMG : 15, Residule = 6.93243e-05 Ratio = 0.281679 , Error = 1.00927e-09 Ratio = 0.712888
+FMG : 16, Residule = 1.96012e-05 Ratio = 0.282747 , Error = 1.13223e-09 Ratio = 1.12183
+FMG : 17, Residule = 5.56046e-06 Ratio = 0.28368 , Error = 1.0951e-09 Ratio = 0.96721
+FMG : 18, Residule = 1.5822e-06 Ratio = 0.284545 , Error = 1.10629e-09 Ratio = 1.01022
+FMG : 19, Residule = 4.51342e-07 Ratio = 0.285262 , Error = 1.10292e-09 Ratio = 0.996957
+FMG : 20, Residule = 1.29105e-07 Ratio = 0.286046 , Error = 1.10393e-09 Ratio = 1.00091
+FMG : 21, Residule = 3.70201e-08 Ratio = 0.286745 , Error = 1.10363e-09 Ratio = 0.999726
+FMG : 22, Residule = 1.05938e-08 Ratio = 0.286164 , Error = 1.10372e-09 Ratio = 1.00008
+Final relative error = 4.76289e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 608117, Error = 2.31733
+V-cycle : 1, Residule = 0.323867 Ratio = 5.32574e-07 , Error = 0.147648 Ratio = 0.0637146
+V-cycle : 2, Residule = 1422.48 Ratio = 4392.17 , Error = 0.0201253 Ratio = 0.136306
+V-cycle : 3, Residule = 98.2523 Ratio = 0.0690713 , Error = 0.00443499 Ratio = 0.220369
+V-cycle : 4, Residule = 35.4283 Ratio = 0.360585 , Error = 0.000515676 Ratio = 0.116274
+V-cycle : 5, Residule = 1.83966 Ratio = 0.0519262 , Error = 0.000167626 Ratio = 0.32506
+V-cycle : 6, Residule = 0.997279 Ratio = 0.542101 , Error = 1.43578e-05 Ratio = 0.0856538
+V-cycle : 7, Residule = 0.0450383 Ratio = 0.0451612 , Error = 6.54736e-06 Ratio = 0.456015
+V-cycle : 8, Residule = 0.0318101 Ratio = 0.706291 , Error = 4.11513e-07 Ratio = 0.0628516
+V-cycle : 9, Residule = 0.00121504 Ratio = 0.0381967 , Error = 2.61803e-07 Ratio = 0.636198
+V-cycle : 10, Residule = 0.0010856 Ratio = 0.893471 , Error = 1.03065e-08 Ratio = 0.0393672
+V-cycle : 11, Residule = 3.41893e-05 Ratio = 0.0314933 , Error = 9.39761e-09 Ratio = 0.911817
+V-cycle : 12, Residule = 3.87237e-05 Ratio = 1.13263 , Error = 1.39035e-09 Ratio = 0.147947
+V-cycle : 13, Residule = 9.56701e-07 Ratio = 0.0247058 , Error = 1.53007e-09 Ratio = 1.10049
+V-cycle : 14, Residule = 1.42434e-06 Ratio = 1.48881 , Error = 1.09843e-09 Ratio = 0.717897
+V-cycle : 15, Residule = 2.52621e-08 Ratio = 0.017736 , Error = 1.08629e-09 Ratio = 0.988944
+V-cycle : 16, Residule = 5.3551e-08 Ratio = 2.11982 , Error = 1.10367e-09 Ratio = 1.016
+V-cycle : 17, Residule = 5.82077e-10 Ratio = 0.0108696 , Error = 1.10442e-09 Ratio = 1.00068
+V-cycle : 18, Residule = 2.09548e-09 Ratio = 3.6 , Error = 1.10371e-09 Ratio = 0.999359
+V-cycle : 19, Residule = 1.16415e-10 Ratio = 0.0555556 , Error = 1.10368e-09 Ratio = 0.999969
+Final relative error = 4.76273e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 608117, Error = 2.31733
+FMG : 1, Residule = 11499.5 Ratio = 0.01891 , Error = 0.0205633 Ratio = 0.00887373
+FMG : 2, Residule = 347.067 Ratio = 0.0301811 , Error = 0.000699322 Ratio = 0.0340082
+FMG : 3, Residule = 13.0764 Ratio = 0.0376769 , Error = 2.42057e-05 Ratio = 0.0346131
+FMG : 4, Residule = 0.470815 Ratio = 0.0360049 , Error = 9.21617e-07 Ratio = 0.0380743
+FMG : 5, Residule = 0.0177131 Ratio = 0.0376221 , Error = 3.44381e-08 Ratio = 0.037367
+FMG : 6, Residule = 0.000647544 Ratio = 0.0365574 , Error = 2.35241e-09 Ratio = 0.0683083
+FMG : 7, Residule = 2.42139e-05 Ratio = 0.0373935 , Error = 1.1495e-09 Ratio = 0.488651
+FMG : 8, Residule = 8.89646e-07 Ratio = 0.0367411 , Error = 1.10541e-09 Ratio = 0.961637
+FMG : 9, Residule = 3.32948e-08 Ratio = 0.0374248 , Error = 1.10376e-09 Ratio = 0.99851
+FMG : 10, Residule = 1.16415e-09 Ratio = 0.034965 , Error = 1.1037e-09 Ratio = 0.999944
+Final relative error = 4.76281e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 608117, Error = 2.31733
+V-cycle : 1, Residule = 12986.3 Ratio = 0.0213549 , Error = 0.0182548 Ratio = 0.00787751
+V-cycle : 2, Residule = 506.256 Ratio = 0.038984 , Error = 0.00117969 Ratio = 0.0646239
+V-cycle : 3, Residule = 22.4833 Ratio = 0.0444108 , Error = 3.36525e-05 Ratio = 0.0285265
+V-cycle : 4, Residule = 0.836687 Ratio = 0.0372138 , Error = 1.71027e-06 Ratio = 0.0508215
+V-cycle : 5, Residule = 0.0303369 Ratio = 0.0362583 , Error = 5.56022e-08 Ratio = 0.0325107
+V-cycle : 6, Residule = 0.000820043 Ratio = 0.0270313 , Error = 3.15558e-09 Ratio = 0.0567528
+V-cycle : 7, Residule = 1.95852e-05 Ratio = 0.0238832 , Error = 1.15668e-09 Ratio = 0.36655
+V-cycle : 8, Residule = 3.89991e-07 Ratio = 0.0199125 , Error = 1.10569e-09 Ratio = 0.955918
+V-cycle : 9, Residule = 2.57278e-08 Ratio = 0.0659701 , Error = 1.10375e-09 Ratio = 0.998248
+V-cycle : 10, Residule = 2.32831e-09 Ratio = 0.0904977 , Error = 1.1037e-09 Ratio = 0.999948
+Final relative error = 4.7628e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 608117, Error = 2.31733
+FMG : 1, Residule = 11530.9 Ratio = 0.0189616 , Error = 0.0506313 Ratio = 0.021849
+FMG : 2, Residule = 398.237 Ratio = 0.0345365 , Error = 0.000858861 Ratio = 0.016963
+FMG : 3, Residule = 11.3108 Ratio = 0.0284022 , Error = 3.08121e-05 Ratio = 0.0358755
+FMG : 4, Residule = 0.400403 Ratio = 0.0354001 , Error = 8.09481e-07 Ratio = 0.0262715
+FMG : 5, Residule = 0.0125923 Ratio = 0.0314491 , Error = 3.11708e-08 Ratio = 0.0385072
+FMG : 6, Residule = 0.00045206 Ratio = 0.0358997 , Error = 1.99995e-09 Ratio = 0.0641609
+FMG : 7, Residule = 1.48766e-05 Ratio = 0.0329084 , Error = 1.13718e-09 Ratio = 0.568604
+FMG : 8, Residule = 5.38304e-07 Ratio = 0.0361846 , Error = 1.10476e-09 Ratio = 0.971491
+FMG : 9, Residule = 1.81608e-08 Ratio = 0.033737 , Error = 1.10374e-09 Ratio = 0.999076
+FMG : 10, Residule = 6.98492e-10 Ratio = 0.0384615 , Error = 1.1037e-09 Ratio = 0.999969
+Final relative error = 4.76283e-10
+
+n = 512
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 608117, Error = 2.31733
+V-cycle : 1, Residule = 12986.3 Ratio = 0.0213549 , Error = 0.151894 Ratio = 0.065547
+V-cycle : 2, Residule = 498.027 Ratio = 0.0383503 , Error = 0.0126577 Ratio = 0.0833326
+V-cycle : 3, Residule = 1.79198 Ratio = 0.00359815 , Error = 0.0011166 Ratio = 0.0882149
+V-cycle : 4, Residule = 2.94771 Ratio = 1.64495 , Error = 0.000102399 Ratio = 0.0917059
+V-cycle : 5, Residule = 0.475947 Ratio = 0.161463 , Error = 9.61449e-06 Ratio = 0.0938928
+V-cycle : 6, Residule = 0.0603349 Ratio = 0.126768 , Error = 9.17883e-07 Ratio = 0.0954686
+V-cycle : 7, Residule = 0.00704259 Ratio = 0.116725 , Error = 8.94983e-08 Ratio = 0.0975052
+V-cycle : 8, Residule = 0.00079104 Ratio = 0.112322 , Error = 9.69801e-09 Ratio = 0.10836
+V-cycle : 9, Residule = 8.71043e-05 Ratio = 0.110114 , Error = 1.94495e-09 Ratio = 0.200552
+V-cycle : 10, Residule = 9.48412e-06 Ratio = 0.108882 , Error = 1.18652e-09 Ratio = 0.610051
+V-cycle : 11, Residule = 1.02585e-06 Ratio = 0.108165 , Error = 1.11189e-09 Ratio = 0.937104
+V-cycle : 12, Residule = 1.10478e-07 Ratio = 0.107694 , Error = 1.10452e-09 Ratio = 0.993365
+V-cycle : 13, Residule = 1.19908e-08 Ratio = 0.108535 , Error = 1.10378e-09 Ratio = 0.999333
+V-cycle : 14, Residule = 1.28057e-09 Ratio = 0.106796 , Error = 1.10371e-09 Ratio = 0.999934
+Final relative error = 4.76285e-10
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 2.43246e+06, Error = 2.31855
+FMG : 1, Residule = 5.60526e-05 Ratio = 2.30435e-11 , Error = 0.000484383 Ratio = 0.000208916
+FMG : 2, Residule = 3005.79 Ratio = 5.36244e+07 , Error = 0.00790504 Ratio = 16.3198
+FMG : 3, Residule = 73.0842 Ratio = 0.0243145 , Error = 9.84082e-05 Ratio = 0.0124488
+FMG : 4, Residule = 6.27684 Ratio = 0.085885 , Error = 2.06742e-07 Ratio = 0.00210087
+FMG : 5, Residule = 0.3025 Ratio = 0.0481931 , Error = 1.35341e-06 Ratio = 6.54638
+FMG : 6, Residule = 0.0117718 Ratio = 0.038915 , Error = 2.55712e-08 Ratio = 0.0188938
+FMG : 7, Residule = 0.00298352 Ratio = 0.253446 , Error = 3.36325e-09 Ratio = 0.131525
+FMG : 8, Residule = 0.000195766 Ratio = 0.0656159 , Error = 6.00114e-10 Ratio = 0.178433
+FMG : 9, Residule = 3.69409e-06 Ratio = 0.0188699 , Error = 1.90663e-10 Ratio = 0.317711
+FMG : 10, Residule = 1.92178e-06 Ratio = 0.520232 , Error = 1.38822e-10 Ratio = 0.728102
+FMG : 11, Residule = 1.59256e-07 Ratio = 0.0828689 , Error = 1.37329e-10 Ratio = 0.989248
+FMG : 12, Residule = 9.31323e-10 Ratio = 0.00584795 , Error = 1.37984e-10 Ratio = 1.00477
+FMG : 13, Residule = 1.39698e-09 Ratio = 1.5 , Error = 1.37918e-10 Ratio = 0.99952
+Final relative error = 5.94846e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 2.43246e+06, Error = 2.31855
+V-cycle : 1, Residule = 0.332441 Ratio = 1.36668e-07 , Error = 0.000487333 Ratio = 0.000210189
+V-cycle : 2, Residule = 3834.03 Ratio = 11533 , Error = 0.0189362 Ratio = 38.8567
+V-cycle : 3, Residule = 752.747 Ratio = 0.196333 , Error = 0.00363095 Ratio = 0.191747
+V-cycle : 4, Residule = 130.746 Ratio = 0.173692 , Error = 0.000682872 Ratio = 0.18807
+V-cycle : 5, Residule = 20.3731 Ratio = 0.155822 , Error = 0.000124507 Ratio = 0.182329
+V-cycle : 6, Residule = 3.27473 Ratio = 0.160738 , Error = 2.19528e-05 Ratio = 0.176317
+V-cycle : 7, Residule = 0.532069 Ratio = 0.162477 , Error = 3.76014e-06 Ratio = 0.171283
+V-cycle : 8, Residule = 0.0877057 Ratio = 0.164839 , Error = 6.3097e-07 Ratio = 0.167805
+V-cycle : 9, Residule = 0.0146018 Ratio = 0.166487 , Error = 1.04021e-07 Ratio = 0.164859
+V-cycle : 10, Residule = 0.00243036 Ratio = 0.166442 , Error = 1.71654e-08 Ratio = 0.165019
+V-cycle : 11, Residule = 0.000401325 Ratio = 0.16513 , Error = 2.63747e-09 Ratio = 0.15365
+V-cycle : 12, Residule = 6.57141e-05 Ratio = 0.163743 , Error = 5.9155e-10 Ratio = 0.224287
+V-cycle : 13, Residule = 1.07219e-05 Ratio = 0.163159 , Error = 6.34213e-11 Ratio = 0.107212
+V-cycle : 14, Residule = 1.75275e-06 Ratio = 0.163474 , Error = 1.50191e-10 Ratio = 2.36815
+V-cycle : 15, Residule = 2.87779e-07 Ratio = 0.164187 , Error = 1.35923e-10 Ratio = 0.905
+V-cycle : 16, Residule = 4.70318e-08 Ratio = 0.16343 , Error = 1.38256e-10 Ratio = 1.01716
+V-cycle : 17, Residule = 8.84756e-09 Ratio = 0.188119 , Error = 1.37865e-10 Ratio = 0.997173
+V-cycle : 18, Residule = 2.32831e-09 Ratio = 0.263158 , Error = 1.37951e-10 Ratio = 1.00062
+Final relative error = 5.94988e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 2.43246e+06, Error = 2.31855
+FMG : 1, Residule = 0.038465 Ratio = 1.58132e-08 , Error = 0.14814 Ratio = 0.0638931
+FMG : 2, Residule = 11362.7 Ratio = 295402 , Error = 0.0130382 Ratio = 0.0880133
+FMG : 3, Residule = 1917.81 Ratio = 0.168782 , Error = 0.0012399 Ratio = 0.0950969
+FMG : 4, Residule = 495.518 Ratio = 0.258376 , Error = 0.000162152 Ratio = 0.130778
+FMG : 5, Residule = 121.789 Ratio = 0.245781 , Error = 2.09413e-06 Ratio = 0.0129146
+FMG : 6, Residule = 31.6055 Ratio = 0.259511 , Error = 5.26381e-06 Ratio = 2.5136
+FMG : 7, Residule = 8.30846 Ratio = 0.262881 , Error = 1.19786e-06 Ratio = 0.227565
+FMG : 8, Residule = 2.22305 Ratio = 0.267565 , Error = 3.99549e-07 Ratio = 0.333553
+FMG : 9, Residule = 0.601664 Ratio = 0.270648 , Error = 1.18053e-07 Ratio = 0.295467
+FMG : 10, Residule = 0.16448 Ratio = 0.273375 , Error = 3.63762e-08 Ratio = 0.308133
+FMG : 11, Residule = 0.0453279 Ratio = 0.275583 , Error = 1.08741e-08 Ratio = 0.298936
+FMG : 12, Residule = 0.0125771 Ratio = 0.27747 , Error = 3.49217e-09 Ratio = 0.321144
+FMG : 13, Residule = 0.00350998 Ratio = 0.279077 , Error = 8.818e-10 Ratio = 0.252508
+FMG : 14, Residule = 0.000984435 Ratio = 0.280467 , Error = 4.47477e-10 Ratio = 0.507458
+FMG : 15, Residule = 0.000277294 Ratio = 0.281679 , Error = 4.4146e-11 Ratio = 0.0986555
+FMG : 16, Residule = 7.84034e-05 Ratio = 0.282744 , Error = 1.66278e-10 Ratio = 3.76654
+FMG : 17, Residule = 2.22423e-05 Ratio = 0.283691 , Error = 1.29378e-10 Ratio = 0.778083
+FMG : 18, Residule = 6.3288e-06 Ratio = 0.284539 , Error = 1.40501e-10 Ratio = 1.08597
+FMG : 19, Residule = 1.80583e-06 Ratio = 0.285336 , Error = 1.37155e-10 Ratio = 0.976187
+FMG : 20, Residule = 5.15953e-07 Ratio = 0.285714 , Error = 1.38157e-10 Ratio = 1.00731
+FMG : 21, Residule = 1.4808e-07 Ratio = 0.287004 , Error = 1.37856e-10 Ratio = 0.997817
+FMG : 22, Residule = 4.28408e-08 Ratio = 0.289308 , Error = 1.37954e-10 Ratio = 1.00071
+Final relative error = 5.94999e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : injection, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 2.43246e+06, Error = 2.31855
+V-cycle : 1, Residule = 0.332441 Ratio = 1.36668e-07 , Error = 0.148133 Ratio = 0.0638903
+V-cycle : 2, Residule = 5689.87 Ratio = 17115.4 , Error = 0.0201378 Ratio = 0.135944
+V-cycle : 3, Residule = 392.971 Ratio = 0.069065 , Error = 0.00445718 Ratio = 0.221334
+V-cycle : 4, Residule = 141.712 Ratio = 0.360618 , Error = 0.000515567 Ratio = 0.115671
+V-cycle : 5, Residule = 7.35706 Ratio = 0.0519154 , Error = 0.000168612 Ratio = 0.327041
+V-cycle : 6, Residule = 3.9891 Ratio = 0.542214 , Error = 1.43356e-05 Ratio = 0.0850212
+V-cycle : 7, Residule = 0.180088 Ratio = 0.045145 , Error = 6.59145e-06 Ratio = 0.459797
+V-cycle : 8, Residule = 0.12724 Ratio = 0.706543 , Error = 4.08948e-07 Ratio = 0.0620422
+V-cycle : 9, Residule = 0.00485745 Ratio = 0.0381755 , Error = 2.62705e-07 Ratio = 0.642391
+V-cycle : 10, Residule = 0.00434239 Ratio = 0.893965 , Error = 1.11818e-08 Ratio = 0.0425641
+V-cycle : 11, Residule = 0.000136643 Ratio = 0.0314672 , Error = 1.04438e-08 Ratio = 0.934001
+V-cycle : 12, Residule = 0.000154893 Ratio = 1.13356 , Error = 4.19849e-10 Ratio = 0.0402008
+V-cycle : 13, Residule = 3.82261e-06 Ratio = 0.0246791 , Error = 5.67757e-10 Ratio = 1.35229
+V-cycle : 14, Residule = 5.6983e-06 Ratio = 1.49068 , Error = 1.32902e-10 Ratio = 0.234083
+V-cycle : 15, Residule = 1.01048e-07 Ratio = 0.0177331 , Error = 1.20382e-10 Ratio = 0.905794
+V-cycle : 16, Residule = 2.14204e-07 Ratio = 2.11982 , Error = 1.3787e-10 Ratio = 1.14527
+V-cycle : 17, Residule = 1.86265e-09 Ratio = 0.00869565 , Error = 1.38634e-10 Ratio = 1.00555
+V-cycle : 18, Residule = 8.84756e-09 Ratio = 4.75 , Error = 1.37962e-10 Ratio = 0.995147
+V-cycle : 19, Residule = 4.65661e-10 Ratio = 0.0526316 , Error = 1.37887e-10 Ratio = 0.999456
+Final relative error = 5.9471e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 2.43246e+06, Error = 2.31855
+FMG : 1, Residule = 45997.9 Ratio = 0.01891 , Error = 0.0205633 Ratio = 0.00886904
+FMG : 2, Residule = 1388.27 Ratio = 0.0301811 , Error = 0.000699321 Ratio = 0.0340082
+FMG : 3, Residule = 52.3056 Ratio = 0.0376769 , Error = 2.42048e-05 Ratio = 0.0346118
+FMG : 4, Residule = 1.88326 Ratio = 0.0360049 , Error = 9.20651e-07 Ratio = 0.0380359
+FMG : 5, Residule = 0.0708522 Ratio = 0.0376221 , Error = 3.34723e-08 Ratio = 0.0363572
+FMG : 6, Residule = 0.00259018 Ratio = 0.0365575 , Error = 1.38663e-09 Ratio = 0.0414263
+FMG : 7, Residule = 9.68562e-05 Ratio = 0.0373936 , Error = 1.83736e-10 Ratio = 0.132505
+FMG : 8, Residule = 3.55858e-06 Ratio = 0.0367409 , Error = 1.39634e-10 Ratio = 0.759971
+FMG : 9, Residule = 1.32248e-07 Ratio = 0.037163 , Error = 1.37987e-10 Ratio = 0.988207
+FMG : 10, Residule = 4.65661e-09 Ratio = 0.0352113 , Error = 1.37927e-10 Ratio = 0.999566
+Final relative error = 5.94886e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : quadratic,Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 2.43246e+06, Error = 2.31855
+V-cycle : 1, Residule = 51945.6 Ratio = 0.0213552 , Error = 0.0182573 Ratio = 0.00787445
+V-cycle : 2, Residule = 2025 Ratio = 0.038983 , Error = 0.00117967 Ratio = 0.0646137
+V-cycle : 3, Residule = 89.9313 Ratio = 0.0444106 , Error = 3.36514e-05 Ratio = 0.0285261
+V-cycle : 4, Residule = 3.34666 Ratio = 0.0372135 , Error = 1.70925e-06 Ratio = 0.0507927
+V-cycle : 5, Residule = 0.121343 Ratio = 0.0362579 , Error = 5.46339e-08 Ratio = 0.0319637
+V-cycle : 6, Residule = 0.00327997 Ratio = 0.0270306 , Error = 2.18973e-09 Ratio = 0.0400801
+V-cycle : 7, Residule = 7.83307e-05 Ratio = 0.0238815 , Error = 1.90906e-10 Ratio = 0.0871822
+V-cycle : 8, Residule = 1.5595e-06 Ratio = 0.0199092 , Error = 1.39915e-10 Ratio = 0.732901
+V-cycle : 9, Residule = 1.03377e-07 Ratio = 0.0662884 , Error = 1.37975e-10 Ratio = 0.986136
+V-cycle : 10, Residule = 9.31323e-09 Ratio = 0.0900901 , Error = 1.37927e-10 Ratio = 0.999656
+Final relative error = 5.94886e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : FMG
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+FMG : 0, Residule = 2.43246e+06, Error = 2.31855
+FMG : 1, Residule = 46123.5 Ratio = 0.0189617 , Error = 0.0506312 Ratio = 0.0218374
+FMG : 2, Residule = 1592.95 Ratio = 0.0345365 , Error = 0.000858861 Ratio = 0.0169631
+FMG : 3, Residule = 45.2432 Ratio = 0.0284022 , Error = 3.08111e-05 Ratio = 0.0358743
+FMG : 4, Residule = 1.60161 Ratio = 0.0354001 , Error = 8.08516e-07 Ratio = 0.0262411
+FMG : 5, Residule = 0.0503692 Ratio = 0.0314491 , Error = 3.0205e-08 Ratio = 0.0373586
+FMG : 6, Residule = 0.00180824 Ratio = 0.0358997 , Error = 1.03417e-09 Ratio = 0.0342383
+FMG : 7, Residule = 5.95064e-05 Ratio = 0.0329085 , Error = 1.71411e-10 Ratio = 0.165748
+FMG : 8, Residule = 2.15322e-06 Ratio = 0.0361846 , Error = 1.38988e-10 Ratio = 0.810847
+FMG : 9, Residule = 7.26432e-08 Ratio = 0.033737 , Error = 1.37968e-10 Ratio = 0.992658
+FMG : 10, Residule = 2.79397e-09 Ratio = 0.0384615 , Error = 1.37924e-10 Ratio = 0.999685
+Final relative error = 5.94873e-11
+
+n = 1024
+Boundary conditions : nonhomogeneous, Restriction operators : full-weighting, Interpolation operators : linear, Cycles : V-cycle
+Stopping criteria : epison = 2.2e-16 max-iterations = 100
+Have no initial guess
+V-cycle : 0, Residule = 2.43246e+06, Error = 2.31855
+V-cycle : 1, Residule = 51945.6 Ratio = 0.0213552 , Error = 0.15189 Ratio = 0.0655105
+V-cycle : 2, Residule = 1992.15 Ratio = 0.0383507 , Error = 0.0126575 Ratio = 0.0833336
+V-cycle : 3, Residule = 7.16417 Ratio = 0.00359619 , Error = 0.00111658 Ratio = 0.0882153
+V-cycle : 4, Residule = 11.7906 Ratio = 1.64578 , Error = 0.000102397 Ratio = 0.0917054
+V-cycle : 5, Residule = 1.90378 Ratio = 0.161465 , Error = 9.61348e-06 Ratio = 0.0938845
+V-cycle : 6, Residule = 0.241339 Ratio = 0.126769 , Error = 9.16915e-07 Ratio = 0.095378
+V-cycle : 7, Residule = 0.0281704 Ratio = 0.116725 , Error = 8.85326e-08 Ratio = 0.0965549
+V-cycle : 8, Residule = 0.00316417 Ratio = 0.112322 , Error = 8.73227e-09 Ratio = 0.0986333
+V-cycle : 9, Residule = 0.000348419 Ratio = 0.110114 , Error = 9.79188e-10 Ratio = 0.112134
+V-cycle : 10, Residule = 3.79374e-05 Ratio = 0.108884 , Error = 2.20753e-10 Ratio = 0.225445
+V-cycle : 11, Residule = 4.10248e-06 Ratio = 0.108138 , Error = 1.4612e-10 Ratio = 0.661916
+V-cycle : 12, Residule = 4.42378e-07 Ratio = 0.107832 , Error = 1.38746e-10 Ratio = 0.949534
+V-cycle : 13, Residule = 4.74975e-08 Ratio = 0.107368 , Error = 1.38007e-10 Ratio = 0.994674
+V-cycle : 14, Residule = 4.65661e-09 Ratio = 0.0980392 , Error = 1.37936e-10 Ratio = 0.999488
+Final relative error = 5.94924e-11
+

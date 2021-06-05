@@ -35,10 +35,59 @@
 \pagestyle{fancy}
 \fancyhead{}
 \lhead{俞璐 (3180104284)}
-\chead{Project2-设计文档}
+\chead{Project2-问题回答文档}
 \rhead{2021/06/5}
+\section*{I. 一维问题}
+\subsection*{I-a. 输入文件说明}
+\hspace{0.9em}
+一维问题的主程序../bin/main1的输入文件为../bin/Dim1\_Input.txt,其中输入的参数分别是:网格的分裂数n、是否是齐次边界条件(1表示齐次)、
+是否使用full-weighting(1表示使用)、是否使用线性插值(1表示使用线性插值,0表示使用二次插值)、是否使用V-cycle(1表示使用,0表示使用FMG)、
+最大的迭代次数、终止的相对误差、是否使用初值估计(1表示使用,0表示不使用).
 
-d
+其中若使用初值估计那么具体的初值估计值需要在文件../bin/Dim1\_InitialGuess.txt中提供.
+
+\subsection*{I-b. 输出文件说明}
+\hspace{0.9em}
+有两个输出文件,其中一个是../bin/AnswerDim1.out,输出残量、误差和各自收敛速度的变化,并在文件的末尾输出所达到的相对误差,另外一个输出文件是Dim1\_Output.m,用于MATLAB画出解的图像.
+
+\subsection*{I-c. 非齐次边值条件在不同参数选择下的结果}
+\hspace{0.9em}
+执行../bin/Test1\_NoHom,得到输出文件../result/Dim1NoHomResult.txt文件中.
+
+\subsection*{I-d. 齐次边值条件在不同参数选择下的结果}
+\hspace{0.9em}
+执行../bin/Test1\_Hom,得到输出文件../result/Dim1HomResult.txt文件中.
+
+\subsection*{I-e. 不同参数下所能达到的最低相对误差}
+\hspace{0.9em}
+执行../bin/Test1\_Hom\_Final\_RE,得到输出文件../result/Dim1HomFinalRE.txt文件中,得到齐次所能达到的最低相对误差.
+
+执行../bin/Test1\_NoHom\_Final\_RE,得到输出文件../result/Dim1NoHomFinalRE.txt文件中,得到非齐次所能达到的最低相对误差.
+
+关于对于为什么达不到所要求的相对误差的原因见I-f的\textcircled{2}.
+
+\subsection*{I-f. 结论}
+\textcircled{1}首先从收敛的速度进行比较可以看出,使用full-weighting、二次插值和FMG的误差下降速度要大于使用injection、线性插值和V-cycle的误差下降速度.\\[2pt]
+\textcircled{2}从I-e的结果可以看出,随着网格的不停加密,最终的结果所能达到的最低相对误差越来越小,但是仍然很难达到所要求的$\epsilon=2.2\times10^{-16}$.具体原因我觉得是随着矩阵的阶数的增加,矩阵的条件数也在不断增大,条件数增大所导致的精度下降的作用会慢慢的超过网格加密所带来的精度提升的作用,所以导致了相对误差很难下降到所要求的值.
+
+\section*{II. 二维问题}
+\hspace{0.9em}
+因为一开始设计时没能直接将系数矩阵A按照定义转化为一个算子作用,而是直接存储A,所以导致二维的程序只能计算到n=64的情况,且因为不知道齐次边界条件下的精确解,所以之考虑的非齐次的情况.
+
+具体的输入文件和输出文件的格式同一维问题,对于主程序../bin/main2来说,输入文件为../bin/Dim2\_Input.txt,输出文件为../bin/AnswerDim2.out与../bin/Dim2\_Output.m.同时初值估计需要在文件../bin/Dim2\_InitialGuess.txt中提供.
+
+\subsection*{II-a. 非齐次边值条件在不同参数选择下的结果}
+\hspace{0.9em}
+执行../bin/Test2\_NoHom,得到输出文件../result/Dim2NoHomResult.txt文件中.
+
+\subsection*{II-b. 不同参数下所能达到的最低相对误差}
+\hspace{0.9em}
+执行../bin/Test2\_NoHom\_Final\_RE,得到输出文件../result/Dim2NoHomFinalRE.txt文件中,得到非齐次所能达到的最低相对误差.
+
+\subsection*{II-c. 结论}
+\hspace{0.9em}
+结论同I-f的结论.
+
 \end{document}
 
 %%% Local Variables: 

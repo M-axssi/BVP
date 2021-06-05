@@ -238,6 +238,7 @@ void MultiGrid::Vcycle_Solve(FDGenerator &G, BVP & B,Real * U,int n,Real * RU,st
   Real presidule=GetResidule(A,F,U,N,Y);
   Real perror=GetError(U,RU,N);
   doc<<"V-cycle : "<<0<<", Residule = "<<presidule<<", Error = "<<perror<<std::endl;
+  Real pdn=perror/RUnorm;
   while (count<=MaxInterations && (perror/RUnorm)>epison)
     {
       Vcycle(A,F,U,n,1,G,B,N);
@@ -245,12 +246,15 @@ void MultiGrid::Vcycle_Solve(FDGenerator &G, BVP & B,Real * U,int n,Real * RU,st
       Real error=GetError(U,RU,N);
       doc<<"V-cycle : "<<count<<", Residule = "<<residule<<" Ratio = "<<residule/presidule<<" , Error = "<<error<<" Ratio = "<<error/perror<<std::endl;
       presidule=residule; perror=error;
+      if (fabs(perror/RUnorm-pdn)<1e-13) break;
+      pdn=perror/RUnorm;
       ++count;
       G.reset();
       B.reset();
       A=G.GenerateA(n,1.0/h/h);
       F=B.GenerateF(n);
     }
+  doc<<"Final relative error = "<<perror/RUnorm;
 }
 
 void MultiGrid::FullMultigrid_Solve(FDGenerator &G, BVP & B,Real * U,int n,Real * RU,std::ofstream &doc)
@@ -265,8 +269,8 @@ void MultiGrid::FullMultigrid_Solve(FDGenerator &G, BVP & B,Real * U,int n,Real 
   Real presidule=GetResidule(A,F,U,N,Y);
   Real perror=GetError(U,RU,N);
   doc<<"FMG : "<<0<<", Residule = "<<presidule<<", Error = "<<perror<<std::endl;
-  Real pdivn=perror/RUnorm;
-  while (count<=MaxInterations && pdivn>epison)
+  Real pdn=perror/RUnorm;
+  while (count<=MaxInterations && perror/RUnorm>epison)
     {
       Real tempU[N]={0};
       FullMultigrid(A,Y,tempU,n,1,G,B,N);
@@ -275,10 +279,13 @@ void MultiGrid::FullMultigrid_Solve(FDGenerator &G, BVP & B,Real * U,int n,Real 
       Real error=GetError(U,RU,N);
       doc<<"FMG : "<<count<<", Residule = "<<residule<<" Ratio = "<<residule/presidule<<" , Error = "<<error<<" Ratio = "<<error/perror<<std::endl;
       presidule=residule; perror=error;
+      if (fabs(perror/RUnorm-pdn)<1e-13) break;
+      pdn=perror/RUnorm;
       ++count;
       G.reset();
       B.reset();
       A=G.GenerateA(n,1.0/h/h);
       F=B.GenerateF(n);
     }
+  doc<<"Final relative error = "<<perror/RUnorm;
 }
